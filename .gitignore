@@ -1,4 +1,8 @@
 
+
+android/react-native-wechat.iml
+ios/RCTWeChat.xcodeproj/xcuserdata/*
+
 node_modules
 /android/build
 /android/RCTWeChat.iml
