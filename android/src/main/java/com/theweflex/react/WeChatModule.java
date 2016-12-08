@@ -3,6 +3,7 @@ package com.theweflex.react;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.media.ThumbnailUtils;
 import android.net.Uri;
 import android.support.annotation.Nullable;
 
@@ -212,7 +213,8 @@ public class WeChatModule extends ReactContextBaseJavaModule implements IWXAPIEv
             this._getImage(uri, new ResizeOptions(100, 100), new ImageCallback() {
                 @Override
                 public void invoke(@Nullable Bitmap bitmap) {
-                    WeChatModule.this._share(scene, data, bitmap, callback);
+                    Bitmap newBitMap = ThumbnailUtils.extractThumbnail(bitmap, 100, 100);
+                    WeChatModule.this._share(scene, data, newBitMap, callback);
                 }
             });
         } else {
