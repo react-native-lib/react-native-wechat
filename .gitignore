@@ -1,4 +1,5 @@
 
+*.iml
 
 android/react-native-wechat.iml
 ios/RCTWeChat.xcodeproj/xcuserdata/*
