@@ -1,7 +1,7 @@
 "use strict";
 
 import { DeviceEventEmitter, NativeModules } from 'react-native';
-import promisify from 'es6-promisify';
+import promisify from "./promisify";
 import { EventEmitter } from 'events';
 
 let isAppRegistered = false;

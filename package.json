@@ -72,7 +72,6 @@
     }
   ],
   "dependencies": {
-    "es6-promisify": "3.0.0",
     "events": "1.0.2"
   },
   "description": "react-native library for wechat app",
@@ -102,5 +101,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "3.0.1"
+  "version": "3.1.0"
 }
