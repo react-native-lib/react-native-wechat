@@ -1,5 +1,8 @@
 ![react-native-wechat logo](./logo.jpg?raw=true)
 
+#v3.1.1
+rn>0.47.0
+
 ## Table of Contents
 
 - [Build](#build)
